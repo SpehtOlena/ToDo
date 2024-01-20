@@ -1,0 +1,29 @@
+.checked {
+	width: 24px;
+	height: 24px;
+	padding: 3.273px;
+	justify-content: center;
+	align-items: center;
+	color: #5E60CE;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.checked:hover {
+	color: #8284FA;
+}
+
+.unchecked {
+	width: 24px;
+	height: 24px;
+	padding: 3.273px;
+	justify-content: center;
+	align-items: center;
+	color: #4EA8DE;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.unchecked:hover {
+	color: #1E6F9F;
+}

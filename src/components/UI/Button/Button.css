@@ -1,0 +1,41 @@
+.button {
+	display: inline-flex;
+	padding: 16px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 8px;
+	background: #1E6F9F;
+	border: 1px solid #1E6F9F;
+	color: #F2F2F2;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: #4EA8DE;
+	border-color: #4EA8DE;
+	transition: all 0.3s ease 0s;
+}
+
+.button_delete {
+	position: absolute;
+	display: flex;
+	width: 24px;
+	height: 24px;
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	border-radius: 4px;
+	color: #808080;
+	background-color: #0D0D0D;
+	cursor: pointer;
+}
+
+.button_delete:hover {
+	color: #E25858;
+	background-color: #333333;
+}
