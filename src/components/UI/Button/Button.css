@@ -21,7 +21,6 @@
 }
 
 .button_delete {
-	position: absolute;
 	display: flex;
 	width: 24px;
 	height: 24px;
@@ -31,7 +30,6 @@
 	flex-shrink: 0;
 	border-radius: 4px;
 	color: #808080;
-	background-color: #0D0D0D;
 	cursor: pointer;
 }
 

@@ -1,0 +1,26 @@
+.empty {
+	padding: 64px 24px;
+	border-radius: 8px;
+	border-top: 1px solid #333;
+}
+
+.empty img {
+	padding-bottom: 20px;
+}
+
+.empty-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #808080;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 140%;
+}
+
+.empty-text_bold {
+	font-weight: 700;
+}

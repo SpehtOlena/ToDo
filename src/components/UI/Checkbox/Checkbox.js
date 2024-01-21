@@ -4,9 +4,9 @@ import { RiCheckboxCircleFill } from "react-icons/ri";
 
 const Checkbox = ({ onClick, complete }) => {
 	return (
-		<div>
+		<div onClick={onClick}>
 			{
-				complete ? <RiCheckboxCircleFill size={22} className={'checked'} /> : <RiCheckboxBlankCircleLine size={22} className={'unchecked'} />
+				complete ? <RiCheckboxBlankCircleLine size={22} className={'unchecked'} /> : <RiCheckboxCircleFill size={22} className={'checked'} />
 			}
 		</div>
 

@@ -1,0 +1,18 @@
+.logo {
+	background: #0D0D0D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 80px 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+.logo img {
+	width: 126px;
+	height: 48px;
+	flex-shrink: 0;
+}

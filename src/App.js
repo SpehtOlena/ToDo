@@ -1,11 +1,13 @@
 import './App.css';
-import Input from './components/UI/Input/Input';
+import Page from './components/Page/Page';
+import Logo from './components/UI/Logo/Logo';
 
 
 function App() {
 	return (
 		<div className="App">
-			<Input type={'text'} placeholder={'rewjdflkjvldfkvgl'} />
+			<Logo />
+			<Page />
 		</div>
 	);
 }
